@@ -8,6 +8,7 @@
 3. Modify the UI.
 4. What else?
 
+
 Hope this will never be my first and only game, hopefully.
 
 
@@ -19,16 +20,21 @@ Hope this will never be my first and only game, hopefully.
 3. Ubah UI.
 4. Apa lagi?
 
+
 Semoga game ini tidak pernah menjadi game pertama dan satu-satunya game buatanku, semoga.
 
 
 The story is inspired from "The Question", bundled with Renpy.
+
 Cerita terinspirasi dari "The Question", di bundle bersama RenPy.
 
 
 The software is multilicensed.
 The Amanda sprite is under Creative Commons Attribution-NonCommercial-ShareAlike.
+
 The Background is under Fair Use (please see Background Terms & Conditions.txt).
+
 The software itself and the source code is licensed under GNU GPL v3.
+
 
 Please tell me if im wrong by creating new issue in this repository.
