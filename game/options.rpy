@@ -1,4 +1,19 @@
-﻿## File ini berisi opsi yang dapat di ubah untuk mengkustomisasi game mu.
+#This file is part of Little Slice of My Life.
+
+#    Little Slice of My Life is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+
+#    Little Slice of My Life is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+
+#    You should have received a copy of the GNU General Public License
+#    along with Little Slice of My Life.  If not, see <https://www.gnu.org/licenses/>.
+
+## File ini berisi opsi yang dapat di ubah untuk mengkustomisasi game mu.
 ##
 ## Baris yang di awali dengan dua 'tanda '#' adalah komentar, dan kamu tidak
 ## seharusnya menghapus nya. Baris dengan satu '#' adalah kode yang di
@@ -29,7 +44,7 @@ define config.version = "1.0"
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""Game ini dikembangkan oleh Muhammad "Hamidi" Hamdani. Sebagai bagian dari langkah awal menggunakan Ren'Py.
+define gui.about = _p("""Game ini dikembangkan oleh Muhammad "Hakase" Hamdani. Sebagai bagian dari langkah awal menggunakan Ren'Py.
 
 Lemma Soft Forums: NotReality_
 
