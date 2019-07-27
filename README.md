@@ -25,15 +25,12 @@ Semoga game ini tidak pernah menjadi game pertama dan satu-satunya game buatanku
 
 
 The story is inspired from "The Question", bundled with Renpy.
-
 Cerita terinspirasi dari "The Question", di bundle bersama RenPy.
 
 
 The software is multilicensed.
 The Amanda sprite is under Creative Commons Attribution-NonCommercial-ShareAlike.
-
 The Background is under Fair Use (please see Background Terms & Conditions.txt).
-
 The software itself and the source code is licensed under GNU GPL v3.
 
 
