@@ -32,15 +32,6 @@ define anvl = Character ('Me', color="#ccffcf", kind=nvl)
 define author = Character ('', color="#ccffcc", kind=nvl)
 define disclaimer = Character ('Disclaimer', color="#ccffcc", kind=nvl)
 
-# Transisi custom
-#Transformation for background
-#transform transform_black:
-#    on show:
-#        alpha 0
-#        linear 2.0 alpha 1
-#    on hide:
-#        linear 2.0 alpha 0
-
 # Game dimulai disini.
 
 ####
