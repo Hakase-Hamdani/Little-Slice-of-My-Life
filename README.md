@@ -32,8 +32,11 @@ Cerita terinspirasi dari "The Question", di bundle bersama RenPy.
 
 The software is multilicensed.
 
+
 -The Amanda sprite is under Creative Commons Attribution-NonCommercial-ShareAlike.
+
 -The Background is under Fair Use (please see Background Terms & Conditions.txt).
+
 -The software itself and the source code is licensed under GNU GPL v3.
 
 
