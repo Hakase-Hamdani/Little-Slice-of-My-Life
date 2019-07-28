@@ -2,9 +2,10 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 25: end of line expected.
-    scene bg uni with dissolve with Pause(3.0)
-                               ^
+File "game/script.rpy", line 39: invalid syntax
+    renpy.movie_cutscene("intro_1.webm") with dissolve
+                                             ^
+    
 
-Ren'Py Version: Ren'Py 7.0.0.196
-Fri Jul 26 18:27:07 2019
+Ren'Py Version: Ren'Py 7.3.2.320
+Sun Jul 28 02:20:28 2019
