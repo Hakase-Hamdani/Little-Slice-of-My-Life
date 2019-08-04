@@ -22,7 +22,7 @@ image bg lapangan = "images/bg meadow.jpg"
 image bg kelas = "images/bg lecturehall.jpg"
 image bg kantor = "images/bg club.jpg"
 image black = "images/blck.png"
-image intro = Movie(play="images/intro.mp4", pos=(10, 10), anchor=(0, 0))
+
 
 
 # Deklarasikan karakter yang digunakan di game.
@@ -34,19 +34,12 @@ define disclaimer = Character ('Disclaimer', color="#ccffcc", kind=nvl)
 
 # Game dimulai disini.
 
+####
 label splashscreen:
-    #$ renpy.movie_cutscene("intro_1.webm")
-    show intro
-    #jump intro
-    #scene bg uni with dissolve
-    with Pause(3.0)
-
-#label intro:
-    #scene black
-    #$ renpy.pause(11, hard=True)
-    #$ renpy.movie_cutscene("intro.webm")
-    # show intro
+    $ renpy.movie_cutscene("intro game.webm")#Ini splashcreen awal.
     return
+####
+
 
 
 label start:

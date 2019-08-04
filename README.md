@@ -6,7 +6,8 @@
 1. Adding splashscreen.
 2. Port to Android.
 3. Modify the UI.
-4. What else?
+4. Cleaning the file and the code.
+5. What else?
 
 
 Hope this will never be my first and only game, hopefully.
@@ -18,7 +19,8 @@ Hope this will never be my first and only game, hopefully.
 1. Menambahkan splashscreen.
 2. Port ke Android.
 3. Ubah UI.
-4. Apa lagi?
+4. Membersihkan file dan kode.
+5. Apa lagi?
 
 Semoga game ini tidak pernah menjadi game pertama dan satu-satunya game buatanku, semoga.
 
@@ -30,8 +32,11 @@ Cerita terinspirasi dari "The Question", di bundle bersama RenPy.
 
 The software is multilicensed.
 
+
 -The Amanda sprite is under Creative Commons Attribution-NonCommercial-ShareAlike.
+
 -The Background is under Fair Use (please see Background Terms & Conditions.txt).
+
 -The software itself and the source code is licensed under GNU GPL v3.
 
 

@@ -38,7 +38,7 @@ define gui.show_name = True
 
 ## Versi Permainan.
 
-define config.version = "v0.0.1"
+define config.version = "v0.0.2"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
