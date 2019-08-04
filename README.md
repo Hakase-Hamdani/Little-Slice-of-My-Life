@@ -3,7 +3,7 @@
  This is just a RenPy game that i made in my free time, kind of my RenPy-ing playground.
  I will try to maintain this, the next thing to do with this is:
 
-1. Adding splashscreen.
+1. Adding splashscreen. (partially done)
 2. Port to Android.
 3. Modify the UI.
 4. Cleaning the file and the code.
@@ -16,7 +16,7 @@ Hope this will never be my first and only game, hopefully.
   Ini hanya permainan RenPy yang ku buat di waktu luang, semacam taman bermain untuk ber-RenPy ku.
   Aku akan mencoba mengelola ini, hal selanjutnya yang harus dilakukan adalah:
 
-1. Menambahkan splashscreen.
+1. Menambahkan splashscreen. (sebagian selesai)
 2. Port ke Android.
 3. Ubah UI.
 4. Membersihkan file dan kode.
