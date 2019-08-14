@@ -29,6 +29,10 @@ The story is inspired from "The Question", bundled with Renpy.
 Cerita terinspirasi dari "The Question", di bundle bersama RenPy.
 
 
+Open for translation, and it will be very appreciated. Just remember create new branch before do it.
+
+Terbuka untuk penerjemahan, dan itu akan sangat dihargai. Yang penting ingat buat branch baru sebelum melakukannya.
+
 
 The software is multilicensed.
 
