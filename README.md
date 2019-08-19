@@ -3,11 +3,12 @@
  This is just a RenPy game that i made in my free time, kind of my RenPy-ing playground.
  I will try to maintain this, the next thing to do with this is:
 
-1. Adding splashscreen. (partially done)
-2. Port to Android.
+1. Adding splashscreen. (Done)
+2. Port to Android. (DONE!)
 3. Modify the UI.
 4. Cleaning the file and the code.
-5. What else?
+5. Add trasnlation (especially english).
+6. What else?
 
 
 Hope this will never be my first and only game, hopefully.
@@ -20,7 +21,8 @@ Hope this will never be my first and only game, hopefully.
 2. Port ke Android.
 3. Ubah UI.
 4. Membersihkan file dan kode.
-5. Apa lagi?
+5. Menambahkan terjemahan (khususnya bahasa inggris).
+6. Apa lagi?
 
 Semoga game ini tidak pernah menjadi game pertama dan satu-satunya game buatanku, semoga.
 
