@@ -38,7 +38,7 @@ define gui.show_name = True
 
 ## Versi Permainan.
 
-define config.version = "v0.0.2"
+define config.version = "v0.0.3"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -48,7 +48,7 @@ define gui.about = _p("""Game ini dikembangkan oleh Muhammad "Hakase" Hamdani. S
 
 Lemma Soft Forums: NotReality_
 
-Wattpad: {a=https://www.wattpad.com}Penghayal_Pasif{/a}
+Wattpad: {a=https://www.wattpad.com/user/Penghayal_Pasif}Penghayal_Pasif{/a}
 
 Gmail: mhdhamdani.formal@gmail.com
 
@@ -167,6 +167,9 @@ define config.has_voice = False
 ## Variabel ini menset transisi yang digunakan ketika event tertentu terjadi.
 ## Setiap variabel harus di set ke transisi, atau 'None' Untuk mengindikasikan
 ## bahwa tidak ada transisi yang harus di gunakan.
+
+# Transisi setelah splashscreen
+define config.end_splash_transition = dissolve
 
 ## Memasuki atau keluar dari menu permainan.
 
