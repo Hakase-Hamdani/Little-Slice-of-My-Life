@@ -36,7 +36,17 @@ define disclaimer = Character ('Disclaimer', color="#ccffcc", kind=nvl)
 
 ####
 label splashscreen:
-    $ renpy.movie_cutscene("intro game.webm")#Ini splashcreen awal.
+    scene black
+    with Pause(1)
+
+    show text "{size=40}Made with love by me." with dissolve
+    with Pause(3)
+
+    show text "{size=40}For someone, maybe." with dissolve
+    with Pause(3)
+
+    hide text with dissolve
+    with Pause(1)
     return
 ####
 
@@ -45,26 +55,26 @@ label splashscreen:
 label start:
     scene black with dissolve
 
-    anvl "Sangatlah wajar bagi seorang manusia untuk jatuh cinta, tidak peduli apakah kau laki-laki atau perempuan. Yang jelas jatuh cinta itu menunjukkan kalau manusia memiliki emosi."
-    anvl "Di sini kau akan bermain sebagai diriku yang didefinisikan sebagai \"Me\" yang merupakan seorang laki-laki."
-    anvl "Kau akan melihat bagaimana aku jatuh cinta pada seorang gadis."
-    anvl "Hanya itu yang bisa kulakukan, karena sisanya kau yang menentukan."
-    anvl "Jadi, semoga pilihanmu adalah yang baik."
-    anvl "Karena hidupku sekarang berada di tanganmu, {i}User{/i}."
+    anvl "Sangatlah wajar bagi seorang manusia untuk jatuh cinta, tidak peduli apakah kau laki-laki atau perempuan. Yang jelas jatuh cinta itu menunjukkan kalau manusia memiliki emosi." with dissolve
+    anvl "Di sini kau akan bermain sebagai diriku yang didefinisikan sebagai \"Me\" yang merupakan seorang laki-laki." with dissolve
+    anvl "Kau akan melihat bagaimana aku jatuh cinta pada seorang gadis." with dissolve
+    anvl "Hanya itu yang bisa kulakukan, karena sisanya kau yang menentukan." with dissolve
+    anvl "Jadi, semoga pilihanmu adalah yang baik." with dissolve
+    anvl "Karena hidupku sekarang berada di tanganmu, {i}User{/i}." with dissolve
 
     nvl clear
 
     anvl "Jangan dianggap terlalu serius."
-    anvl "Ini hanya permainan."
+    anvl "Ini hanya cerita."
 
     nvl clear
 
-    anvl "Remember, this is just a game."
+    anvl "Remember, this is just a story."
     anvl "Have fun with my life!"
 
     nvl clear
 
-    anvl "And...{w}{cps=15}Enjoy a little slice of my life!{/cps}"
+    anvl "And...{w}{cps=15} Enjoy a little slice of my life!{/cps}"
 
     nvl hide
     nvl clear
@@ -226,7 +236,7 @@ label tidakapa2:
     scene black with dissolve
 
     a "Hari demi hari berlalu, kami jadi semakin dekat lebih dekat dari sebelumnya."
-    a "Kami mulai berbagi banyak hal, suka dan duka, rahasia kecil kami. Kami menjadi saling mengenal."
+    a "Kami mulai berbagi banyak hal, suka dan duka, rahasia kecil kami. Kami menjadi lebih saling mengenal."
     a "Hingga saatnya tiba hari kelulusan."
 
     scene bg kelas with dissolve
@@ -423,14 +433,14 @@ label nikah:
 
     scene black with dissolve
 
-    a "Tak lama setelah kelulusan, kami sudah merilis visual novel pertama kami, walau sebenarnya mengurus visual novel hanyalah pekerjaan paruh waktu."
-    a "Karena, saat itu aku bekerja di sebuah kantor, menjadi pengantar surat-surat, dan Amanda bekerja di sebuah restoran, menjadi seorang pelayan."
-    a "Kami melakukan itu agar kami bisa meneruskan ke universitas."
-    a "Lalu, visual novel kami mendapat review positif dan sempat diulas di salah satu majalah literasi dan gaming."
-    a "Visual novel kami mendapat pujian dari sisi penceritaan, yang mana itu datang dariku. Dan pujian dari sisi ilustrasi, yang mana itu datang dari Amanda."
-    a "Kami bisa meneruskan ke universitas pilihan kami menggunakan uang dari visual novel kami, dan kami terus membuat banyak visual novel."
-    a "Lalu, saat kami berdua lulus, kami direkrut oleh salah satu perusahaan developer game. Kami menjadi semakin terkenal, dan hidup kami menjadi semakin mapan."
-    a "Tapi, selama bertahun-tahun itu, aku selalu menyembunyikan perasaanku dari dia. Aku masih terlalu takut."
+    a "Tak lama setelah kelulusan, kami sudah merilis visual novel pertama kami, walau sebenarnya mengurus visual novel hanyalah pekerjaan paruh waktu." with dissolve
+    a "Karena, saat itu aku bekerja di sebuah kantor, menjadi pengantar surat-surat, dan Amanda bekerja di sebuah restoran, menjadi seorang pelayan." with dissolve
+    a "Kami melakukan itu agar kami bisa meneruskan ke universitas." with dissolve
+    a "Lalu, visual novel kami mendapat review positif dan sempat diulas di salah satu majalah literasi dan gaming." with dissolve
+    a "Visual novel kami mendapat pujian dari sisi penceritaan, yang mana itu datang dariku. Dan pujian dari sisi ilustrasi, yang mana itu datang dari Amanda." with dissolve
+    a "Kami bisa meneruskan ke universitas pilihan kami menggunakan uang dari visual novel kami, dan kami terus membuat banyak visual novel." with dissolve
+    a "Lalu, saat kami berdua lulus, kami direkrut oleh salah satu perusahaan developer game. Kami menjadi semakin terkenal, dan hidup kami menjadi semakin mapan." with dissolve
+    a "Tapi, selama bertahun-tahun itu, aku selalu menyembunyikan perasaanku dari dia. Aku masih terlalu takut." with dissolve
     a "{cps=20}Aku sudah menyembunyikan perasaanku terlalu lama...{/cps}"
 
     scene bg kantor with dissolve
@@ -484,9 +494,9 @@ label amandaduluan:
     a "Aku sudah siap untuk yang terburuk."
     l "Lalu, kita sudah sering berbagi suka duka, berbagi cerita, berbagi rahasia. Kita sudah saling mengenal."
     l "Aku merasa kau ingin sesuatu yang lebih."
-    l "...{w}Aku juga menginginkan lebih, lebih dari sekedar teman, lebih dari sekedar sahabat."
+    l "{cps=15}Aku juga menginginkan lebih, lebih dari sekedar teman, lebih dari sekedar sahabat.{/cps}"
     a "Ucapannya itu membuat jantungku berdegup kencang."
-    l "Jadi...{w}Maukah kau menjadi pendamping hidupku?"
+    l "{cps=15}Jadi...{w}Maukah kau menjadi pendamping hidupku?{/cps}"
     a "Sebenarnya aku yang mau membuat momen ini, tapi kurasa dia sudah duluan, dan sekarang aku hanya punya satu jawaban untuk di ucapkan."
 
     menu:
@@ -495,7 +505,7 @@ label amandaduluan:
             jump nikah2
 
 label nikah2:
-    a "\"Ya, aku mau.\""
+    a "\"Ya, {cps=10}aku mau.{/cps}\"" with dissolve
 
     hide embarrassed2c
     show smile2c
@@ -519,10 +529,10 @@ label nikah2:
     a "Lalu, pesan untuk anakku untuk saat ini. Jadilah anak yang baik, dan jangan nakal."
 
 
-    "{b}Good Ending 2{/b}"
+    "{b}Good Ending 2{/b}" with dissolve
 
-    a "{i}And we live happily ever after.{/i}"
-    "{b}FIN{/b}"
+    a "{i}And we live happily ever after.{/i}" with dissolve
+    "{b}FIN{/b}" with dissolve
 
     jump credits
 
@@ -532,20 +542,25 @@ label akuduluan:
     a "\"Kita berdua sudah sering berbagi cerita, dan berbagi rahasia.\""
     a "\"Diantara semua rahasia yang sudah kuberitahukan padamu, ada satu rahasia yang masih kupendam.\""
     a "\"Jadi...{w}Melawan sifatku yang terlalu perhitungan dan pemalu.{w} Aku akan mengatakan rahasia terbesarku, langsung di intinya.\""
+    a ""
     a "Dari sini, aku sudah siap untuk yang terburuk."
 
     hide defaultc
     show shock2c
 
-    a "\"Jadi, bersediakah kau menjadi pendamping hidupku...\""
+    a "\"Jadi, bersediakah kau menjadi pendamping hidupku...\"" with dissolve
 
 
-    a "\"Menemaniku, mencintaiku, dan selalu ada disampingku...{w}Tak peduli apapun yang terjadi...{w}Hingga ajal memisahkan kita?\""
+    a "\"{cps=15}Menemaniku, mencintaiku, dan selalu ada disampingku...{w}Tak peduli apapun yang terjadi...{w}Hingga ajal memisahkan kita?\"{/cps}"
+
+
+    l "..."
 
     hide shock2c
     show smile2c
 
-    l "Ya...{w}aku bersedia."
+    l "Ya..."
+    l "aku bersedia." with dissolve
     a "Sunyi."
     a "Jawaban itu terus menggema di kepalaku."
     a "Hingga akhirnya, tanpa sadar bibirku membentuk seukir senyuman."
@@ -604,14 +619,14 @@ label akuduluan:
     hide smile3c
     scene black with dissolve
 
-    "{b}Good Ending 1{/b}"
-    l "{i}And we live happily ever after.{/i}"
-    "{b}FIN{/b}"
+    "{b}Good Ending 1{/b}" with dissolve
+    l "{i}And we live happily ever after.{/i}" with dissolve
+    "{b}FIN{/b}" with dissolve
 
 jump credits
 
 label credits:
-    author "Sebelumnya aku berterima kasih pada Tom \"Pytom\" Rothamel untuk software hebat ini."
+    author "Sebelumnya aku berterima kasih pada Tom \"PyTom\" Rothamel untuk software hebat yang kugunakan untuk membuat ini."
     author "Aku juga berterima kasih pada Mugenjohncel untuk background, dan Elzee yang telah memperbolehkan sprite character buatannya digunakan di proyek kecil non-komersial ini."
 
     nvl clear
@@ -644,15 +659,30 @@ label credits:
             jump baper
 
 label ptmhn:
-    author "Sebenarnya, aku ingin mendedikasikan ini pada seseorang, tapi...{w}{cps=15} sekarang aku sedang bimbang.{/cps}"
+    author "Sebenarnya, aku ingin mendedikasikan ini pada seseorang, tapi...{w}{cps=15} sekarang aku sedang bimbang.{/cps}" with dissolve
+    author "He he, being romantic in a nerdy way."
+    nvl clear
+    author "Ok, it's not romantic at all."
     nvl clear
 
 jump baper
 
 label baper:
-    author "{size=40}Jangan baper,ya.{w} Ingat, ini hanya cerita."
-    nvl clear
-    author "{size=40}See ya!"
+
+    scene black
+    with Pause(1)
+
+    show text "{size=40}Jangan baper,ya. Ingat, ini hanya cerita." with dissolve
+    with Pause(5)
+
+    hide tekt with dissolve
+    with Pause(1)
+
+    show text "{size=40}See ya!" with dissolve
+    with Pause(5)
+
+    hide text with dissolve
+    with Pause(1)
 
 jump ret
 

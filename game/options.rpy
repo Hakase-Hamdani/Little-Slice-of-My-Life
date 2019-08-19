@@ -38,7 +38,7 @@ define gui.show_name = True
 
 ## Versi Permainan.
 
-define config.version = "v0.0.2"
+define config.version = "v0.0.3"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -167,6 +167,9 @@ define config.has_voice = False
 ## Variabel ini menset transisi yang digunakan ketika event tertentu terjadi.
 ## Setiap variabel harus di set ke transisi, atau 'None' Untuk mengindikasikan
 ## bahwa tidak ada transisi yang harus di gunakan.
+
+# Transisi setelah splashscreen
+define config.end_splash_transition = dissolve
 
 ## Memasuki atau keluar dari menu permainan.
 

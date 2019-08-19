@@ -2,10 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 39: invalid syntax
-    renpy.movie_cutscene("intro_1.webm") with dissolve
-                                             ^
-    
+File "game/script.rpy", line 673: end of line expected.
+    show text "{size=40}See ya!" with Pause(5) with dissolve
+                                               ^
 
 Ren'Py Version: Ren'Py 7.3.2.320
-Sun Jul 28 02:20:28 2019
+Sun Aug 18 22:20:05 2019

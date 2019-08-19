@@ -1,42 +1,20 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "renpy/common/00start.rpy", line 204, in script call
-    call _load_reload_game from _call__load_reload_game_1
-  File "renpy/common/00keymap.rpy", line 456, in script
-    python hide:
-  File "renpy/common/00keymap.rpy", line 456, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 466, in _execute_python_hide
-    renpy.load("_reload-2")
-Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
+After initialization, but before game start.
+WindowsError: [Error 32] The process cannot access the file because it is being used by another process: 'G:\\Pemrograman\\GitHub\\Little-Slice-of-My-Life\\game\\saves\\navigation.json'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 204, in script call
-    call _load_reload_game from _call__load_reload_game_1
-  File "renpy/common/00keymap.rpy", line 456, in script
-    python hide:
-  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\ast.py", line 912, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\python.py", line 2004, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "renpy/common/00keymap.rpy", line 456, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 466, in _execute_python_hide
-    renpy.load("_reload-2")
-  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\loadsave.py", line 761, in load
-    log.unfreeze(roots, label="_after_load")
-  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\python.py", line 1959, in unfreeze
-    self.rollback(0, force=True, label=label, greedy=greedy, on_load=True)
-  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\python.py", line 1791, in rollback
-    self.load_failed()
-  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\python.py", line 1709, in load_failed
-    raise Exception("Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?")
-Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
+  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\bootstrap.py", line 314, in bootstrap
+    renpy.main.main()
+  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\main.py", line 485, in main
+    renpy.dump.dump(False)
+  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\dump.py", line 253, in dump
+    os.unlink(args.json_dump)
+WindowsError: [Error 32] The process cannot access the file because it is being used by another process: 'G:\\Pemrograman\\GitHub\\Little-Slice-of-My-Life\\game\\saves\\navigation.json'
 
 Windows-8-6.2.9200
 Ren'Py 7.3.2.320
-Little Slice Of My Life 1.0
-Sun Jul 28 08:50:39 2019
+Little Slice Of My Life v0.0.3
+Sun Aug 18 21:45:43 2019
