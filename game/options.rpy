@@ -48,7 +48,7 @@ define gui.about = _p("""Game ini dikembangkan oleh Muhammad "Hakase" Hamdani. S
 
 Lemma Soft Forums: NotReality_
 
-Wattpad: {a=https://www.wattpad.com}Penghayal_Pasif{/a}
+Wattpad: {a=https://www.wattpad.com/user/Penghayal_Pasif}Penghayal_Pasif{/a}
 
 Gmail: mhdhamdani.formal@gmail.com
 
