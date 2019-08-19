@@ -447,7 +447,7 @@ label nikah:
 
     a "{cps=20}...Dan hari ini aku akan mengungkapkannya.{/cps}"
 
-    show defaultc
+    show defaultc with dissolve
 
     l "Maukah kau ku ajak ke suatu tempat?"
     a "Aku baru mau mengatakannya, tapi dia sudah bertanya lebih dulu. Kurasa aku harus menyimpan ini untuk nanti, untuk waktu dekat."
@@ -468,9 +468,9 @@ label nikah:
     show embarrassed2c
 
     l "Sebenarnya, aku membawamu kesini karena aku ingin mengatakan sesuatu."
-    a "Ucapannya benar-benar mengejutkanku. Aku takut dia akan mengatakan yang terburuk, jadi kurasa inilah saatnya."
+    a "Ucapannya benar-benar mengejutkanku. Aku takut dia akan mengatakan yang terburuk, jadi kurasa inilah saatnya." with dissolve
     a "\"Sebenarnya, aku juga ingin mengatakan sesuatu padamu.\""
-    a "Setiap kata yang kuucapkan tadi, terlontar begitu saja tanpa dirangkai sedikitpun. Aku takut ini malah mengganggu momennya."
+    a "Setiap kata yang kuucapkan tadi, terlontar begitu saja tanpa dirangkai sedikitpun. Aku takut ini malah mengganggu momennya." with dissolve
 
     hide embarrassed2c
     show defaultc
@@ -495,7 +495,7 @@ label amandaduluan:
     l "Lalu, kita sudah sering berbagi suka duka, berbagi cerita, berbagi rahasia. Kita sudah saling mengenal."
     l "Aku merasa kau ingin sesuatu yang lebih."
     l "{cps=15}Aku juga menginginkan lebih, lebih dari sekedar teman, lebih dari sekedar sahabat.{/cps}"
-    a "Ucapannya itu membuat jantungku berdegup kencang."
+    a "Ucapannya itu membuat jantungku berdegup kencang." with dissolve
     l "{cps=15}Jadi...{w}Maukah kau menjadi pendamping hidupku?{/cps}"
     a "Sebenarnya aku yang mau membuat momen ini, tapi kurasa dia sudah duluan, dan sekarang aku hanya punya satu jawaban untuk di ucapkan."
 
@@ -543,7 +543,7 @@ label akuduluan:
     a "\"Diantara semua rahasia yang sudah kuberitahukan padamu, ada satu rahasia yang masih kupendam.\""
     a "\"Jadi...{w}Melawan sifatku yang terlalu perhitungan dan pemalu.{w} Aku akan mengatakan rahasia terbesarku, langsung di intinya.\""
     a ""
-    a "Dari sini, aku sudah siap untuk yang terburuk."
+    a "Dari sini, aku sudah siap untuk yang terburuk." with dissolve
 
     hide defaultc
     show shock2c
@@ -551,7 +551,7 @@ label akuduluan:
     a "\"Jadi, bersediakah kau menjadi pendamping hidupku...\"" with dissolve
 
 
-    a "\"{cps=15}Menemaniku, mencintaiku, dan selalu ada disampingku...{w}Tak peduli apapun yang terjadi...{w}Hingga ajal memisahkan kita?\"{/cps}"
+    a "{w}\"{cps=20}Menemaniku{/cps}, {w}{cps=20}mencintaiku{/cps}, {w}{cps=20}dan selalu ada disampingku...{/cps}{w}{cps=20}Tak peduli apapun yang terjadi...{/cps}{w}{cps=20}Hingga ajal memisahkan kita?\"{/cps}"
 
 
     l "..."
@@ -560,7 +560,7 @@ label akuduluan:
     show smile2c
 
     l "Ya..."
-    l "aku bersedia." with dissolve
+    l "Aku bersedia." with dissolve
     a "Sunyi."
     a "Jawaban itu terus menggema di kepalaku."
     a "Hingga akhirnya, tanpa sadar bibirku membentuk seukir senyuman."

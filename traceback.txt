@@ -1,7 +1,7 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 After initialization, but before game start.
-WindowsError: [Error 32] The process cannot access the file because it is being used by another process: 'G:\\Pemrograman\\GitHub\\Little-Slice-of-My-Life\\game\\saves\\navigation.json'
+WindowsError: [Error 2] The system cannot find the file specified
 
 -- Full Traceback ------------------------------------------------------------
 
@@ -10,11 +10,11 @@ Full traceback:
     renpy.main.main()
   File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\main.py", line 485, in main
     renpy.dump.dump(False)
-  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\dump.py", line 253, in dump
-    os.unlink(args.json_dump)
-WindowsError: [Error 32] The process cannot access the file because it is being used by another process: 'G:\\Pemrograman\\GitHub\\Little-Slice-of-My-Life\\game\\saves\\navigation.json'
+  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\dump.py", line 255, in dump
+    os.rename(new, args.json_dump)
+WindowsError: [Error 2] The system cannot find the file specified
 
 Windows-8-6.2.9200
 Ren'Py 7.3.2.320
 Little Slice Of My Life v0.0.3
-Sun Aug 18 21:45:43 2019
+Mon Aug 19 13:47:20 2019
