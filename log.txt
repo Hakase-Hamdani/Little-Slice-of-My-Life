@@ -1,33 +1,33 @@
-Mon Aug 19 00:00:21 2019
+Mon Aug 19 13:27:43 2019
 Windows-8-6.2.9200
 Ren'Py 7.3.2.320
  
 
-Bootstrap to the start of init.init took 0.22s
+Bootstrap to the start of init.init took 0.25s
 Early init took 0.01s
-Loader init took 0.06s
-Loading error handling took 0.30s
-Loading script took 6.59s
-Loading save slot metadata. took 0.10s
+Loader init took 0.08s
+Loading error handling took 0.43s
+Loading script took 7.66s
+Loading save slot metadata. took 0.11s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.66s
+Running init code took 0.90s
 Loading analysis data took 0.00s
 Analyze and compile ATL took 0.01s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\WINDOWS 10\\AppData\\Roaming/RenPy/backups\\Little-Slice-of-My-Life':
-Dump and make backups. took 0.27s
+Dump and make backups. took 0.40s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.06s
+Initial gc. took 0.07s
 DPI scale factor: 1.000000
-Creating interface object took 0.11s
+Creating interface object took 0.19s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.09s
 Build styles took 0.02s
 Load screen analysis took 0.00s
-Analyze screens took 0.10s
-Save screen analysis took 0.23s
-Prepare screens took 0.43s
-Save pyanalysis. took 0.20s
-Save bytecode. took 0.18s
+Analyze screens took 0.16s
+Save screen analysis took 0.30s
+Prepare screens took 0.58s
+Save pyanalysis. took 0.29s
+Save bytecode. took 0.64s
