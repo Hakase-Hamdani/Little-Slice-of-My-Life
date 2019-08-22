@@ -17,7 +17,7 @@ Hope this will never be my first and only game, hopefully.
   Ini hanya permainan RenPy yang ku buat di waktu luang, semacam taman bermain untuk ber-RenPy ku.
   Aku akan mencoba mengelola ini, hal selanjutnya yang harus dilakukan adalah:
 
-1. Menambahkan splashscreen. Sselesai)
+1. Menambahkan splashscreen. (Selesai)
 2. Port ke Android. (SELESAI!)
 3. Ubah UI.
 4. Membersihkan file dan kode.
