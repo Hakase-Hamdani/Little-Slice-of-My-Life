@@ -298,6 +298,10 @@ init python:
     build.documentation('*.html')
     build.documentation('*.txt')
 
+## Menonaktifkan auto-relaod di android
+
+define config.save_on_mobile_background = False
+
 ## Atur ini ke string yang berisi ID Developer Aplikasi Apple mu untuk
 ## mengaktifkan codesigning di Mac. Pastikan untuk mengganti nya ke ID mu
 ## sendiri yang sudah di berikan oleh Apple.

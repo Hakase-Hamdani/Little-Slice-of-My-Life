@@ -1,20 +1,56 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 After initialization, but before game start.
-WindowsError: [Error 2] The system cannot find the file specified
+  File "game/screens.rpy", line 1052, in prepare_screen
+    screen help():
+  File "game/screens.rpy", line 1052, in prepare
+    screen help():
+  File "game/screens.rpy", line 1058, in prepare
+    use game_menu(_("Bantuan"), scroll="viewport"):
+  File "game/screens.rpy", line 1058, in prepare
+    use game_menu(_("Bantuan"), scroll="viewport"):
+  File "game/screens.rpy", line 1062, in prepare
+    vbox:
+  File "game/screens.rpy", line 1062, in prepare
+    vbox:
+  File "game/screens.rpy", line 1073, in prepare
+    if device == "keyboard":
+  File "game/screens.rpy", line 1077, in prepare
+    elif device == "gamepad":
+Exception: A screen named gamepad_help does not exist.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
   File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\bootstrap.py", line 314, in bootstrap
     renpy.main.main()
-  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\main.py", line 485, in main
-    renpy.dump.dump(False)
-  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\dump.py", line 255, in dump
-    os.rename(new, args.json_dump)
-WindowsError: [Error 2] The system cannot find the file specified
+  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\main.py", line 529, in main
+    run(restart)
+  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\main.py", line 90, in run
+    renpy.display.screen.prepare_screens()
+  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\display\screen.py", line 919, in prepare_screens
+    s.ast.prepare_screen()
+  File "game/screens.rpy", line 1052, in prepare_screen
+    screen help():
+  File "game/screens.rpy", line 1052, in prepare
+    screen help():
+  File "game/screens.rpy", line 1058, in prepare
+    use game_menu(_("Bantuan"), scroll="viewport"):
+  File "game/screens.rpy", line 1058, in prepare
+    use game_menu(_("Bantuan"), scroll="viewport"):
+  File "game/screens.rpy", line 1062, in prepare
+    vbox:
+  File "game/screens.rpy", line 1062, in prepare
+    vbox:
+  File "game/screens.rpy", line 1073, in prepare
+    if device == "keyboard":
+  File "game/screens.rpy", line 1077, in prepare
+    elif device == "gamepad":
+  File "G:\RenPy\1RenPy Core\renpy-7.0.0-sdk\renpy\sl2\slast.py", line 1719, in prepare
+    raise Exception("A screen named {} does not exist.".format(self.target))
+Exception: A screen named gamepad_help does not exist.
 
 Windows-8-6.2.9200
 Ren'Py 7.3.2.320
 Little Slice Of My Life v0.0.3
-Mon Aug 19 13:47:20 2019
+Mon Aug 26 20:32:19 2019

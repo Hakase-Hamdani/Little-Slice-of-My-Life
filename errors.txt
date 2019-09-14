@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 673: end of line expected.
-    show text "{size=40}See ya!" with Pause(5) with dissolve
-                                               ^
+File "game/screens.rpy", line 369: u'xpos' is not a keyword argument or valid child for the screen statement.
+    xpos 0.5 ypos 0.5
+        ^
 
 Ren'Py Version: Ren'Py 7.3.2.320
-Sun Aug 18 22:20:05 2019
+Mon Aug 26 11:54:21 2019

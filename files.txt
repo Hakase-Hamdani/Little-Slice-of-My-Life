@@ -1,3 +1,5 @@
+android-icon_background.png
+android-icon_foreground.png
 gui.rpy
 gui.rpy.1.bak
 gui.rpy.2.bak
@@ -15,6 +17,8 @@ script.rpyc
 cache\bytecode.rpyb
 cache\pyanalysis.rpyb
 cache\screens.rpyb
+gui\android-icon_background.png
+gui\android-icon_foreground - Salin.png
 gui\frame.png
 gui\frame.png.1.bak
 gui\frame.png.2.bak
@@ -151,6 +155,8 @@ gui\phone\button\check_selected_foreground.png
 gui\phone\button\check_selected_foreground.png.1.bak
 gui\phone\button\check_selected_foreground.png.2.bak
 gui\phone\button\check_selected_foreground.png.3.bak
+gui\phone\button\choice_hover_background.png
+gui\phone\button\choice_idle_background.png
 gui\phone\button\hover_background.png
 gui\phone\button\hover_background.png.1.bak
 gui\phone\button\hover_background.png.2.bak
@@ -313,7 +319,6 @@ gui\slider\vertical_idle_thumb.png.2.bak
 gui\slider\vertical_idle_thumb.png.3.bak
 images\Default.png
 images\Defaultc.png
-images\Intro.mp4
 images\angry5.png
 images\angry5c.png
 images\bg club.jpg
@@ -323,7 +328,6 @@ images\bg uni.jpg
 images\blck.png
 images\embarrassed2.png
 images\embarrassed2c.png
-images\intro.ogv
 images\relieved1.png
 images\relieved1c.png
 images\sad1.png
@@ -336,9 +340,24 @@ images\smile2.png
 images\smile2c.png
 images\smile3.png
 images\smile3c.png
+saves\_reload-2-LT1.save
 saves\auto-1-LT1.save
+saves\auto-10-LT1.save
 saves\auto-2-LT1.save
+saves\auto-3-LT1.save
+saves\auto-4-LT1.save
+saves\auto-5-LT1.save
+saves\auto-6-LT1.save
+saves\auto-7-LT1.save
+saves\auto-8-LT1.save
+saves\auto-9-LT1.save
 saves\navigation.json
 saves\persistent
-tl\None\common.rpym
-tl\None\common.rpymc
+tl\english\common.rpy
+tl\english\common.rpyc
+tl\english\options.rpy
+tl\english\options.rpyc
+tl\english\screens.rpy
+tl\english\screens.rpyc
+tl\english\script.rpy
+tl\english\script.rpyc
