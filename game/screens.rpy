@@ -317,7 +317,7 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Mulai") action Start()
+            textbutton _("Mulai Cerita") action Start()
 
         else:
 
@@ -325,7 +325,7 @@ screen navigation():
 
             textbutton _("Simpan") action ShowMenu("save")
 
-        textbutton _("Muat") action ShowMenu("load")
+        textbutton _("Sambung Cerita") action ShowMenu("load")
 
         textbutton _("Setting") action ShowMenu("preferences")
 
@@ -340,6 +340,8 @@ screen navigation():
         textbutton _("Tentang") action ShowMenu("about")
 
         textbutton _("Lisensi") action ShowMenu("license")
+
+        textbutton "Bahasa/Language" action ShowMenu ("language")
 
         if renpy.variant("pc"):
 
@@ -359,6 +361,28 @@ style navigation_button:
 
 style navigation_button_text:
     properties gui.button_text_properties("navigation_button")
+
+## Menu Terjemahan
+
+screen language():
+
+    tag menu
+
+    use game_menu(_("Setting"), scroll="viewport"):
+
+
+        vbox:
+            xpos 250 ypos 200
+            #style_prefix "radio"
+            label "Bahasa/Language"
+
+            textbutton "English" text_font "DejaVuSans.ttf" action Language("english")
+
+            textbutton "indonesia" text_font "DejaVuSans.ttf" action Language(None)
+
+
+
+## Menu Terjemahan^
 
 
 ## Layar Menu utama ############################################################
@@ -600,7 +624,7 @@ screen license():
             label "[config.name!t]"
             text _("Versi [config.version!t]\n")
 
-            ## gui.about biasanya di set di options.rpy.
+            ## gui.license biasanya di set di options.rpy.
             if gui.license:
                 text "[gui.license!t]\n"
 
@@ -753,6 +777,8 @@ style slot_button_text:
     properties gui.button_text_properties("slot_button")
 
 
+
+
 ## Layar preferensi/opsi #######################################################
 ##
 ## Layar preferensi mengijinkan pemain untuk mengkonfigurasi permainan untuk
@@ -796,6 +822,11 @@ screen preferences():
                 ## Tipe tambahan vboxes "radio_pref" atau "check_pref" dapat di
                 ## tambahkan disini, untuk menambahkan tambahan preferensi yang
                 ## dibuat creator.
+
+
+
+
+
 
             null height (4 * gui.pref_spacing)
 

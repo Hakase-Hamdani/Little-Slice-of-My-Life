@@ -34,7 +34,7 @@ define disclaimer = Character ('Disclaimer', color="#ccffcc", kind=nvl)
 
 # Game dimulai disini.
 
-####
+#### splashscreen
 label splashscreen:
     scene black
     with Pause(1)
@@ -48,8 +48,7 @@ label splashscreen:
     hide text with dissolve
     with Pause(1)
     return
-####
-
+#### splashscreen
 
 
 label start:

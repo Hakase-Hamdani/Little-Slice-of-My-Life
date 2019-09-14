@@ -1,39 +1,39 @@
-Mon Aug 19 14:08:02 2019
+Tue Aug 27 14:49:19 2019
 Windows-8-6.2.9200
 Ren'Py 7.3.2.320
  
 
-Bootstrap to the start of init.init took 0.22s
-Early init took 0.03s
-Loader init took 0.17s
-Loading error handling took 0.14s
-Loading script took 0.93s
-Loading save slot metadata. took 0.51s
+Bootstrap to the start of init.init took 0.26s
+Early init took 0.05s
+Loader init took 0.08s
+Loading error handling took 0.15s
+Loading script took 2.54s
+Loading save slot metadata. took 0.95s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 1.19s
-Loading analysis data took 0.08s
+Running init code took 0.54s
+Loading analysis data took 0.24s
 Analyze and compile ATL took 0.01s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\WINDOWS 10\\AppData\\Roaming/RenPy/backups\\Little-Slice-of-My-Life':
-Dump and make backups. took 0.33s
+Dump and make backups. took 0.57s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.05s
+Initial gc. took 0.09s
 DPI scale factor: 1.000000
-Creating interface object took 0.31s
+Creating interface object took 1.23s
 Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.01s
-Load screen analysis took 0.03s
-Analyze screens took 0.03s
-Save screen analysis took 0.25s
-Prepare screens took 0.23s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.27s
-Running _start took 0.00s
+Init translation took 0.09s
+Build styles took 0.02s
+Load screen analysis took 0.02s
+Analyze screens took 0.05s
+Save screen analysis took 0.28s
+Prepare screens took 0.29s
+Save pyanalysis. took 1.19s
+Save bytecode. took 0.35s
+Running _start took 0.01s
 Performance test:
-Interface start took 0.07s
+Interface start took 0.12s
 
 primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
@@ -351,11 +351,11 @@ Texture testing:
 FBO Maximum Texture Size: 16384
 Root FBO is: 0
 controller: 'efbeedfe000000000000504944564944' None 0L
-Total time until interface ready: 9.0490000248s
+Total time until interface ready: 12.5390000343s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.015000 seconds.
+- Frame drawn at 0.016000 seconds.
 - Frame drawn at 0.031000 seconds.
-- Frame drawn at 0.047000 seconds.
-- Frame drawn at 0.064000 seconds.
-- 0.064000 seconds to render 5 frames.
+- Frame drawn at 0.048000 seconds.
+- Frame drawn at 0.065000 seconds.
+- 0.065000 seconds to render 5 frames.
