@@ -1,5 +1,8 @@
 # Little-Slice-of-My-Life
 
+Sorry, this repo has been archived at 22 October 2021 due to two years(!) of my inactivity. I don't know when i will un-archive this.
+Maaf, repo ini sudah di arsipkan pada tanggal 22 Oktober 2021 karena aku sudah tidak aktif selama dua tahun(!). Aku tidak tahu kapan aku akan kembali membuka ini.
+
  This is just a RenPy game that i made in my free time, kind of my RenPy-ing playground.
  I will try to maintain this, the next thing to do with this is:
 
