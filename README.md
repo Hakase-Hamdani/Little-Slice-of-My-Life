@@ -1,7 +1,9 @@
 # Little-Slice-of-My-Life
 
-Sorry, this repo has been archived at 22 October 2021 due to two years(!) of my inactivity. I don't know when i will un-archive this.
-Maaf, repo ini sudah di arsipkan pada tanggal 22 Oktober 2021 karena aku sudah tidak aktif selama dua tahun(!). Aku tidak tahu kapan aku akan kembali membuka ini.
+####
+__Sorry, this repo has been archived at 22 October 2021 due to two years(!) of my inactivity. I don't know when i will un-archive this.__  
+__Maaf, repo ini sudah di arsipkan pada tanggal 22 Oktober 2021 karena aku sudah tidak aktif selama dua tahun(!). Aku tidak tahu kapan aku akan kembali membuka ini.__
+####
 
  This is just a RenPy game that i made in my free time, kind of my RenPy-ing playground.
  I will try to maintain this, the next thing to do with this is:
@@ -47,8 +49,6 @@ The software is multilicensed.
 -The Background is under Fair Use (please see Background Terms & Conditions.txt).
 
 -The software itself and the source code is licensed under GNU GPL v3.
-
-
 
 
 Please tell me if im wrong by creating new issue in this repository.
