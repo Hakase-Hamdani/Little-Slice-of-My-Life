@@ -2,11 +2,16 @@
 
 ####
 __Sorry, this repo has been archived at 22 October 2021 due to two years(!) of my inactivity. I don't know when i will un-archive this.__
-__Since this repo is never forked or used by anyone except me. The next time this Repo reopened, the license will be switched to MIT License for our convenience.__
-__Maaf, repo ini sudah di arsipkan pada tanggal 22 Oktober 2021 karena aku sudah tidak aktif selama dua tahun(!). Aku tidak tahu kapan aku akan kembali membuka ini.__
-__KArena repo ini tidak pernah di fork atau di gunakan oleh orang lain selain aku. Maka jika repo ini kembali di ubah, lisensinya akan di ganti menjadi Lisensi MIT untuk kenyamanan kita semua.__
-####
 
+__Since this repo is never forked or used by anyone except me. The next time this Repo reopened, the license will be switched to MIT License for our convenience.__
+****
+
+__Maaf, repo ini sudah di arsipkan pada tanggal 22 Oktober 2021 karena aku sudah tidak aktif selama dua tahun(!). Aku tidak tahu kapan aku akan kembali membuka ini.__
+
+__Karena repo ini tidak pernah di fork atau di gunakan oleh orang lain selain aku. Maka jika repo ini kembali di ubah, lisensinya akan di ganti menjadi Lisensi MIT untuk kenyamanan kita semua.__
+####
+****
+****
  This is just a RenPy game that i made in my free time, kind of my RenPy-ing playground.
  I will try to maintain this, the next thing to do with this is:
 
